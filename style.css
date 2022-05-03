@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*CSS Reset - estilo geral da folha*/
+*{ /* o asterisco é o seletor universal*/
+    margin: 0; /*valores zerados */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: disc;
+    font-family: roboto;
+    font-size: 30px;
+}
+
+header{
+    background-color:#060514;
+    height:100px;
+}
+
+.container-grid{
+    width: 1220px;
+    margin: auto;
+}
+
+.logo{
+    width: 340px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:   space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none; /* tira sublinhado */
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    height: 700px;
+    background-image: url(../imagens/controleJogos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.posicao-banner{
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*.conteudo-banner a{
+    color: white;
+     border-radius: 5px:  arredonda canto do botão
+} determina a cor da fonte de um link*/
+
+.conteudo-banner{
+    /*color: white;determinar cor da fonte  para todo esse container*/
+    display: flex; /*arruma a tela*/
+    flex-direction: row; /*arruma a tela */
+    width: 1300px;
+    align-items: baseline;
+    height: 5px;
+    justify-content: space-between;
+} 
+
+.banner-slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-slogan h3{
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    padding: 35px;
+}
+
+.banner-slogan p{
+    padding: 10px;
+    background-color: white;
+    width: 700px;
+    border-radius: 7px;
+    font-family: "roboto";
+}
+
+.banner-pesquisa{
+    display: flex;
+    flex-direction: row;
+    /*padding: 15px;*/
+    box-shadow: 10px 10px rgb(34, 34, 107);
+    color: black;
+}
+
+.banner-pesquisa img{
+    width: 40px;
+}
+
+.banner-card1{
+    padding: 30px;
+    font-family: roboto;
+}
+
+.banner-card2{
+    padding: 30px;
+    font-family: roboto;
+    width: 300px;
+}
+
+.banner-card2 p{
+    font-size: 30px;
+}
+
+.banner-card3{
+    padding: 30px;
+    font-family: roboto;
+}
+
+.divisoria1{
+    background-image: url(c:/senai/imagens/divisoria.png);
+    width: 1685px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo{
+    padding: 200px;
+    height: 870px;
+    background-image: url(../imagens/joystick.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudo-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.conteudo-imagens img{
+    width: 480px;
+    padding:  30px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: roboto;
+    font-size: 30px;
+    color: white;
+    width: 1300px; 
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+    text-align: left;
+}
+
+.texto1{
+    width: 300px;
+}
+
+.texto2{
+    width: 300px;
+}
+
+.texto3{
+    width: 300px;
+}
+
+.divisoria2{
+    background-image: url(../imagens/divisoria.png);
+    width: 1685px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rodape{
+    background-image: url(../imagens/banner.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: roboto; 
+    font-size: 20px;
+    color: white;
+ 
+    padding-top: 300px;    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rodape h2{
+    text-transform: uppercase;    
+}
+
+.botao-rodape{
+    padding: 30px;
+}
+
+.slogan-rodape img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 180px;
+}
+
+.slogan-rodape h3{
+    font-family: roboto;
+    font-size: 16px;
+    border-bottom: 30px;
+}
+
+.botao-rodape p{
+    text-transform: uppercase;
+    font-family: roboto;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+}
+
+.saibamais-rodape{
+    line-height: 35px;
+}
+
+.empresa-rodape{
+    line-height: 35px;
+}
+
+.apoio-rodape{
+    line-height: 35px;
+}
+
+.sociais-rodape p{
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
