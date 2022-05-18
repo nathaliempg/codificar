@@ -50,7 +50,7 @@ header{
 
 .banner {
     height: 700px;
-    background-image: url(../imagens/controleJogos.jpg);
+    background-image: url(c:/senai/codificar/imagens/controleJogos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -136,7 +136,7 @@ header{
 }
 
 .divisoria1{
-    background-image: url(c:/senai/imagens/divisoria.png);
+    background-image: url(c:/senai/codificar/imagens/divisoria.png);
     width: 1685px;
     height: 10px;
     background-position: center;
@@ -147,7 +147,7 @@ header{
 .conteudo{
     padding: 200px;
     height: 870px;
-    background-image: url(../imagens/joystick.jpg);
+    background-image: url(c:/senai/codificar/imagens/joystick.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,7 +192,7 @@ header{
 }
 
 .divisoria2{
-    background-image: url(../imagens/divisoria.png);
+    background-image: url(c:/senai/codificar/imagens/divisoria.png);
     width: 1685px;
     height: 10px;
     background-position: center;
@@ -201,7 +201,7 @@ header{
 }
 
 .rodape{
-    background-image: url(../imagens/banner.png);
+    background-image: url(c:/senai/codificar/imagens/banner.png);
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
