@@ -37,21 +37,47 @@ body{
     padding-top: 15px;
 }
 
-.conteudo-caixa p{
+/*.conteudo-caixa p{*/
+.usuario-caixa input{
     font-family: roboto;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+
+    margin-top: 20px;
+    margin-left: 30px; 
+    width: 330px;
 }
 
-.botao-caixa {    
+.senha-caixa input{
+    font-family: roboto;
+    font-size: 15px;
+    color: white;
+
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 330px;
+}
+
+.botao-caixa a{    
     width: 170px;
     height: 50px;
     border-radius: 7px;
 
     font-family: roboto;
     font-size: 20px ;
+    color: white;
     background-image: linear-gradient(to right, #4B0082,#DB7093);
+    text-decoration: none;
     
     display: flex;
     flex-direction: row;
@@ -63,10 +89,11 @@ body{
     padding-left: 60px;
 }
 
-.cadastrar-caixa{
+.cadastrar-caixa a{
     font-family: roboto;
     font-size: 20px;
     color: white;
+    text-decoration: none;
 
     padding-top: 20px;
     padding-left: 130px;

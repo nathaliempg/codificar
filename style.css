@@ -95,12 +95,21 @@ header{
     padding: 35px;
 }
 
-.banner-slogan p{
+.banner-slogan input{
     padding: 10px;
     background-color: white;
     width: 700px;
     border-radius: 7px;
     font-family: "roboto";
+    font-size:15px ;
+}
+
+.banner-slogan a{
+    height: 40px;
+}
+
+.banner-slogan a:hover{
+    transform: scale(1.1);
 }
 
 .banner-pesquisa{
@@ -162,6 +171,10 @@ header{
 .conteudo-imagens img{
     width: 480px;
     padding:  30px;
+} 
+
+.conteudo-imagens a:hover{  /*hover - efeitos quando o mouse passa por cima*/
+    transform: scale(1.1); /*aumenta imagem quando o mouse passa por cima*/
 }
 
 .texto{
@@ -241,7 +254,7 @@ header{
     border-bottom: 30px;
 }
 
-.botao-rodape p{
+.botao-rodape {
     text-transform: uppercase;
     font-family: roboto;
     background-color: transparent;
@@ -249,13 +262,31 @@ header{
     border-style: solid;
     border-color: white;
     border-radius: 6px;
-    width: 150px;
+    width: 180px;
     height: 35px;
     padding: 5px;
 }
 
+.slogan-rodape h3{
+    margin-bottom: 40px;
+}
+
 .saibamais-rodape{
     line-height: 35px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.sociais-rodape a:hover img{
+    transform: scale(1.1);
 }
 
 .empresa-rodape{
