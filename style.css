@@ -20,10 +20,10 @@ header{
 
 .container-grid{
     width: 1220px;
-    margin: auto;
+    margin-left: 80px;
 }
 
-.logo{
+.logo a img{
     width: 340px;
 }
 
@@ -34,10 +34,23 @@ header{
     height: 100%;
 }
 
+.redesSociais a img{
+    width: 50px;
+    height: 50px;
+
+    margin-right: 15px;
+}
+
+.carrinho a img{
+    width: 70px;
+    height: 70px;
+}
+
 .menu{
     width: 450px;
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .menu a{
@@ -49,7 +62,7 @@ header{
 }
 
 .banner {
-    height: 700px;
+    height: 1000px;
     background-image: url(c:/senai/codificar/imagens/controleJogos.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -60,8 +73,9 @@ header{
 .posicao-banner{
     height: 30%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    color: black;
+    /*align-items: center; */
 }
 
 /*.conteudo-banner a{
@@ -77,6 +91,8 @@ header{
     align-items: baseline;
     height: 5px;
     justify-content: space-between;
+    margin-left: 290px;
+    margin-top: 55px;
 } 
 
 .banner-slogan{
@@ -93,6 +109,7 @@ header{
     font-size: 30px;
     align-items: center;
     padding: 35px;
+    color: black;
 }
 
 .banner-slogan input{
@@ -108,7 +125,7 @@ header{
     height: 40px;
 }
 
-.banner-slogan a:hover{
+.banner-pesquisa a:hover{
     transform: scale(1.1);
 }
 
@@ -125,6 +142,7 @@ header{
 }
 
 .banner-card1{
+    width: 400px;
     padding: 30px;
     font-family: roboto;
 }
@@ -132,7 +150,7 @@ header{
 .banner-card2{
     padding: 30px;
     font-family: roboto;
-    width: 300px;
+    width: 400px;
 }
 
 .banner-card2 p{
@@ -142,6 +160,39 @@ header{
 .banner-card3{
     padding: 30px;
     font-family: roboto;
+}
+
+.catalogo a img{
+    margin-top: 85px;
+    margin-left: 110px;
+
+    width: 270px;
+    height: 350px;
+} 
+
+.catalogo a:hover{
+    transform: scale(1.1);
+}
+
+.textoPromocao{
+    font-family: roboto;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.promocao1{
+     margin-left: 135px;
+}
+.promocao2{
+    margin-left: 170px;
+}
+.promocao3{
+    margin-left: 160px;
+}
+.promocao4{
+    margin-left: 170px;
 }
 
 .divisoria1{
@@ -154,7 +205,7 @@ header{
 }
 
 .conteudo{
-    padding: 200px;
+    padding: 160px;
     height: 870px;
     background-image: url(c:/senai/codificar/imagens/joystick.jpg);
     background-position: center;
@@ -187,7 +238,7 @@ header{
     color: white;
     width: 1300px; 
     position: absolute;
-    top: 1300px;
+    top: 1650px;
     left: 200px;
     text-align: left;
 }
