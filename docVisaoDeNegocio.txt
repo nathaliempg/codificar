@@ -1,0 +1,48 @@
+-  FINALIDADE
+apresenta a arquitetura do projeto GameMania. 
+contém funcionalidade para compra de produtos e serviços tecnológicos.
+
+- ESCOPO
+definição dos requisitos para construção do site. 
+oferecimento de serviços, produtos, cadastro do usuário, jogos, acesso às redes sociais.
+
+- VISÃO GERAL
+público alvo - usuários que gostam de jogar
+mercado - jogos e consumo de produtos e serviços tecnológicos
+o site deve permitir interação entre usuários
+
+- VISÃO GERAL DO PRODUTO
+site de jogos, compra de produtos e serviços tecnológicos, notícias e interação com o usuário, jogos gratuitos.
+
+- POSICIONAMENTO NO MERCADO
+jogos, produtos e serviços tecnológicos
+
+- DESCRIÇÃO DA EQUIPE DESENVOLVEDORA E DOS CLIENTES
+desenvolvedor - Nathalie Maria
+formação - analista de sistemas
+clientes - usuários de jogos e consumidores de produtos tecnológicos
+
+- ALTERNATIVAS E CONCORRÊNCIAS
+aumentar as vendas de jogos, produtos e serviços tecnológico
+ponto forte: interação com os clientes, produtos de qualidade, serviços eficientes
+ponto fraco: logística para entrega dos produtos
+
+- RESTRIÇÕES
+internet lenta ou caindo
+
+- REQUISITOS DO PRODUTO
+* Requisitos Funcionais
+	incluir/excluir/alterar nome dos usuários
+	geração de pedidos de compra com número para rastreamento
+	recebimento de valores da compra
+	consulta de produtos e serviços
+	jogos gratuitos
+* Requisitos nãoFuncionais
+	sistema operacional - windows
+	tecnologias - html5 css4 javascript bootstrap angular jquery
+
+- DEFINIÇÃO, ACRÔNIMOS E ABREVIAÇÕES
+não há
+
+- REFERÊNCIAS
+senai e internet
