@@ -19,8 +19,9 @@ header{
 }
 
 .container-grid{
-    width: 1220px;
-    margin-left: 80px;
+    width: 1500px;
+    /*margin-left: 30px;*/
+    justify-content: space-between;
 }
 
 .logo a img{
@@ -29,22 +30,23 @@ header{
 
 .cabecalho{
     display: flex;
-    justify-content:   space-between;
+   /* justify-content:   space-between;*/
     align-items: center;
     height: 100%;
+    margin-left: 50px;
 }
 
 .redesSociais a img{
     width: 50px;
     height: 50px;
-
-    margin-right: 15px;
+    justify-content: space-between;
+    margin-right: 25px;
 }
 
-.carrinho a img{
+/*.carrinho a img{
     width: 70px;
     height: 70px;
-}
+}*/
 
 .menu{
     width: 450px;
@@ -91,7 +93,7 @@ header{
     align-items: baseline;
     height: 5px;
     justify-content: space-between;
-    margin-left: 290px;
+    margin-left: 150px;
     margin-top: 55px;
 } 
 
@@ -162,7 +164,11 @@ header{
     font-family: roboto;
 }
 
-.catalogo a img{
+.catalogo {
+    display: flex;  
+}
+
+.catalogo img{
     margin-top: 85px;
     margin-left: 110px;
 
@@ -189,10 +195,10 @@ header{
     margin-left: 170px;
 }
 .promocao3{
-    margin-left: 160px;
+    margin-left: 155px;
 }
 .promocao4{
-    margin-left: 170px;
+    margin-left: 162px;
 }
 
 .divisoria1{
@@ -212,6 +218,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .conteudo-imagens{
     display: flex;
     flex-direction: row;
